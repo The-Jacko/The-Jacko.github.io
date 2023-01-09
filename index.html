@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Jackie Ho</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a class="logo" href="#" data-text="Jackie">Jackie</a>
-      <ul class="nav_links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
-      <a href="#"><button>Contact</button></a>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Jackie Ho</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#" data-text="Jackie">Jackie</a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Resume</a></li>
+        </ul>
+        <a href="#"><button>Contact</button></a>
+      </nav>
 
-    <div>
-      <!-- see my work buttons -->
-      <!-- contact me buttons -->
-    </div>
-  </header>
+      <div id="welcome-banner">
+        <img src="./assets/images/main_banner.jpg" alt="main_banner" />
+        <div class="welcome-message">
+          <h1>Hello, my name is Jackie.</h1>
+          <p class="subtitle">Welcome to my website!</p>
+          <div class="CTA-Btn">
+            <a href="#"><button>See My Work</button></a>
+            <a href="#"><button>Contact Me</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <main>
+    <main>
+      <div id="projects" class="container">
+        <h1>Projects</h1>
+      </div>
+      <div id="about" class="container dark-bg">
+        <h1>About Me</h1>
+        <div class="about-me">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga repudiandae odio ipsam eius assumenda veritatis sed qui iure ea suscipit molestiae eaque eligendi necessitatibus dolore quo, pariatur magnam, quam tempora.</p>
+        </div>
+      </div>
+      <div id="contact" class="container">
+        <h1>Contact Me</h1>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>ho.jackie98@gmail.com</p>
+        </div>
+      </div>
+    </main>
 
-  </main>
-  
-  <!-- Footer for links to linkedin and github -->
-  <footer></footer>
-</body>
+    <!-- Footer for links to linkedin and github -->
+    <footer></footer>
+  </body>
 </html>
